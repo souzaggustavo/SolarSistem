@@ -8,6 +8,31 @@ body {
     overflow: hidden;
     background-image: url(/imagens/galaxy.jpg);
 }
+
+nav {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.101);
+    color: white;
+    padding-top: 150px;
+  }
+    .titulon{
+      position: relative;
+      font-size: 4rem;
+    }
+    .integrantes{
+      position: relative;
+      font-size: 2rem;
+      top: -400px;
+      display: flex;
+      flex-direction: row;
+    }
+
 .container {
     font-size: 6px;
     width: 40em;
@@ -215,13 +240,6 @@ img{
     height: 4em;
     background-image: url('/imagens/plutao.png');
     background-size: cover;
-}
-
-.star {
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-    z-index: -1;
 }
 
 @keyframes orbit {
